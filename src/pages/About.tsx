@@ -1,5 +1,5 @@
-import Navbar from "../components/Navbar";
-import React, { useEffect } from "react";
+
+
 import { useNavigate } from "react-router-dom";
 
 const About = () => {
@@ -21,7 +21,7 @@ const About = () => {
   return (
 
     <section id="about" className="bg-white py-16 px-4">
-      <Navbar />
+      
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl font-bold text-blue-700 mb-6">About Uttarakhand</h2>
         <p className="text-gray-700 text-lg leading-relaxed">

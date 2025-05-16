@@ -8,7 +8,7 @@ import Testimonials from './pages/Testimonials';
 import Footer from './components/Footer';
 import Login from './pages/Login';
 import Register from './pages/Register';
-import Navbar from './components/Navbar';
+
 
 function App() {
   return (

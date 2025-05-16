@@ -2,11 +2,7 @@ import valley from "../assets/valleyofflower.jpg";
 import mussoorie from "../assets/mussooriehills.jpg";
 import haridwar from "../assets/harkipauri.jpg";
 import auli from "../assets/auli.jpg";
-import React from "react";
-import { Link } from "react-router-dom";
-import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
-import { useState } from "react";
+
 
 const Gallery = () => {
   const images = [

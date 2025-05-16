@@ -1,5 +1,3 @@
-
-import React from 'react';
 import RishikeshImg from '../assets/rishikesh.jpg';
 import KedarnathImg from '../assets/kedarnath.jpg';
 

@@ -4,7 +4,7 @@ A responsive, modern full-stack web application built with React, TypeScript, Ta
 
 ## 🌐 Live Demo
 
-🚀 [View Live on Vercel]([https://your-project-name.vercel.app](https://valley-verse-586c-gg0hhk7p1-santoshs-projects-20e5a41d.vercel.app))
+🚀 [View Live on Vercel]([https://your-project-name.vercel.app](https://valley-verse-586c-gg0hhk7p1-santoshs-projects-20e5a41d.vercel.app)
 
 ## 🖼️ Features
 

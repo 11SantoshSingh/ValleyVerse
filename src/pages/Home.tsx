@@ -1,14 +1,18 @@
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Destinations from '../components/Destinations';
+import FindDestination from './FindDestination';
 
 const Home = () => {
   return (
-    <>
+    <div>
       <Navbar />
-      <Hero />
-      <Destinations />
-    </>
+      <main>
+        <Hero />
+        <FindDestination />
+        <Destinations />
+      </main>
+    </div>
   );
 };
 

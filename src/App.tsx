@@ -9,13 +9,14 @@ import Footer from './components/Footer';
 import Login from './pages/Login';
 import Register from './pages/Register';
 
+// Import your new FindDestination component
+import FindDestination from './pages/FindDestination';
 
 function App() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Optional Navbar if needed globally */}
       
-
       {/* Main content area that grows to fill space */}
       <div className="flex-grow">
         <Routes>
@@ -27,6 +28,8 @@ function App() {
           <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          {/* New route for FindDestination */}
+          <Route path="/find-destination" element={<FindDestination />} />
         </Routes>
       </div>
 

@@ -1,21 +1,35 @@
 # 🏔️ Uttarakhand Tourism Website
 
-A responsive, modern full-stack web application built with React, TypeScript, Tailwind CSS, Express.js, and MongoDB to promote tourism in the beautiful Indian state of Uttarakhand.
+A responsive, modern full-stack web application built with **React**, **TypeScript**, **Tailwind CSS**, **Node.js (Express)**, and **MongoDB** to promote tourism in the beautiful Indian Himalayan state of **Uttarakhand**.
+
+---
 
 ## 🌐 Live Demo
 
 🚀 [View Live on Vercel](https://your-project-name.vercel.app)
 
-## 🖼️ Features
+---
 
-- 🏞️ Image gallery of famous destinations
-- 💬 Testimonials from travelers
-- 📍 Pages for popular tourist destinations
-- 📨 Contact form with backend API support
-- 🔒 Authentication pages (Login & Register)
-- 📱 Fully responsive design
-- 🎨 Clean UI with Tailwind CSS
-- 🧭 Client-side routing with React Router
+## 🖼️ Screenshots
+    ![Homepage](../fontend/src/assets/screenshot/homepage.png)
+    ![Map](../fontend/src/assets/screenshot/mapAPI.png)
+    ![Mlmodel](../fontend/src/assets/screenshot/Mlmodel.png)
+    ![Testimonial](../fontend/src/assets/screenshot/testimonial.png)
+
+
+## ✨ Features
+
+- 🏞️ Gallery of breathtaking Uttarakhand destinations
+- 🔐 Authentication: Login & Register
+- 📍 Dynamic pages for tourist places
+- 💬 Testimonials from real visitors
+- 📨 Contact form with backend API
+- 📱 Fully responsive mobile-first design
+- 🎨 Beautiful UI using Tailwind CSS
+- 🔄 Smooth routing with React Router
+- 🧠 Future ML feature integration (Seasonal Medicine Predictor)
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -26,11 +40,35 @@ A responsive, modern full-stack web application built with React, TypeScript, Ta
 - [React Router](https://reactrouter.com/)
 - [Axios](https://axios-http.com/)
 
-### Backend (optional if implemented):
+### Backend:
+- [Node.js](https://nodejs.org/)
 - [Express.js](https://expressjs.com/)
 - [MongoDB](https://www.mongodb.com/)
 - [Mongoose](https://mongoosejs.com/)
-- [Node.js](https://nodejs.org/)
 
-## 📂 Project Structure
+## ⚙️ Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/uttarakhand-tourism.git
+cd uttarakhand-tourism 
+
+---
+
+## Frontend Setup(React):
+1. cd client
+2. npm install
+3. npm run dev
+### Backend Setup(Node.js + Express)
+1. cd server
+2. npm install
+3. npm run start
+
+### ML Model API(Python Flask)
+
+1. cd model-server
+2. pip install -r requirements.txt
+3. python app.py
+
 

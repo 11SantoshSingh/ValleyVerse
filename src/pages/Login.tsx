@@ -20,7 +20,7 @@ const Login = () => {
       console.log("Login successful:", response.data);
       setErrorMessage("");
       localStorage.setItem("isLoggedIn", "true");
-      navigate("/about");
+      navigate("/home");
     } catch (error: any) {
       console.error("Login error:", error.response || error.message);
       setErrorMessage(
@@ -35,7 +35,7 @@ const Login = () => {
     <div className="flex justify-center items-center h-screen bg-gradient-to-br from-green-900 to-black text-white">
       <form
         onSubmit={handleSubmit}
-        className="bg-white text-black rounded-2xl shadow-2xl p-8 w-full max-w-sm"
+        className="bg-white text-green-700 rounded-2xl shadow-2xl p-8 w-full max-w-sm"
       >
         <h2 className="text-2xl font-bold mb-6 text-center">Login</h2>
 

@@ -11,10 +11,11 @@ A responsive, modern full-stack web application built with **React**, **TypeScri
 ---
 
 ## 🖼️ Screenshots
-    ![Homepage](../fontend/src/assets/screenshot/homepage.png)
-    ![Map](../fontend/src/assets/screenshot/mapAPI.png)
-    ![Mlmodel](../fontend/src/assets/screenshot/Mlmodel.png)
-    ![Testimonial](../fontend/src/assets/screenshot/testimonial.png)
+
+![Homepage](./src/assets/screenshot/homepage.png)
+![Map](./src/assets/screenshot/mapAPI.png)
+![ML Model](./src/assets/screenshot/Mlmodel.png)
+![Testimonial](./src/assets/screenshot/testimonial.png)
 
 
 ## ✨ Features
